@@ -4,7 +4,7 @@
 
 enum variant_type { Symbol, Number, List, Proc, Lambda, Cadena };
 
-ruct Entorno;
+struct Entorno;
 
 class Variant {
 public:
