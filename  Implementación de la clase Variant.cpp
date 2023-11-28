@@ -122,5 +122,5 @@ int main() {
     Variant symbolFromJson = Variant::from_json_string(symbolJsonString);
     Variant numberFromJson = Variant::from_json_string(numberJsonString);
 
-    retur 0;
+    return 0;
 }
