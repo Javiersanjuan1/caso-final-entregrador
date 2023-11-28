@@ -2,7 +2,7 @@
 #include <string>
 #include "json11.hpp"
 
-num variant_type { Symbol, Number, List, Proc, Lambda, Cadena };
+enum variant_type { Symbol, Number, List, Proc, Lambda, Cadena };
 
 struct Entorno;
 
