@@ -119,7 +119,7 @@ int main() {
     std::string numberJsonString = number.to_json_string();
 
     // Crear instancia de Variant desde cadena JSON
-    Variant symbolFromJson = Variant::from_json_string(symbolJsonString);
+    ariant symbolFromJson = Variant::from_json_string(symbolJsonString);
     Variant numberFromJson = Variant::from_json_string(numberJsonString);
 
     return 0;
